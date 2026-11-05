@@ -1,0 +1,6 @@
+name: Containerization Test
+services:
+    containerizationtest:
+        ports:
+            - 5001:5001
+        image: containerizationtest:latest
